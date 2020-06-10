@@ -1,0 +1,14 @@
+{
+    "name": "style-config-webpack-plugin",
+    "version": "0.0.101",
+    "description": "A webpack plugin for import style config to JavaScript、LESS and SASS.",
+    "main": "lib/index.js",
+    "repository": "git@github.com:edonet/style-config-webpack-plugin.git",
+    "author": "edonet <edonet@163.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@ainc/fs": "^0.0.110",
+        "@ainc/script": "^0.0.118",
+        "memory-webpack-plugin": "^0.0.104"
+    }
+}
