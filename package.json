@@ -3,6 +3,7 @@
     "version": "0.0.101",
     "description": "A webpack plugin for import style config to JavaScript、LESS and SASS.",
     "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "repository": "git@github.com:edonet/style-config-webpack-plugin.git",
     "author": "edonet <edonet@163.com>",
     "license": "MIT",
