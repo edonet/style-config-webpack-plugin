@@ -7,4 +7,13 @@ $ yarn add style-config-webpack-plugin
 ```
 
 ## Usage
+Add the plugin to your webpack config, as `webpack.config.js`. For example:
+``` javascript
+const StyleConfigPlugin = require('style-config-webpack-plugin');
+
+// add plugin
+module.exports = {
+    plugins: [new StyleConfigPlugin()],
+};
+```
 
