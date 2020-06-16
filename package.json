@@ -8,8 +8,8 @@
     "author": "edonet <edonet@163.com>",
     "license": "MIT",
     "dependencies": {
-        "@ainc/fs": "^0.0.110",
-        "@ainc/script": "^0.0.118",
-        "memory-webpack-plugin": "^0.0.104"
+        "@ainc/fs": "^0.0.111",
+        "@ainc/script": "^0.0.119",
+        "memory-webpack-plugin": "^0.0.105"
     }
 }
