@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@ainc/fs@^0.1.15", "@ainc/fs@^0.1.16":
+"@ainc/fs@^0.1.15":
   version "0.1.16"
   resolved "https://registry.yarnpkg.com/@ainc/fs/-/fs-0.1.16.tgz#0c27f329655c5d2fc8a399242222f917488db68d"
   integrity sha512-1J0AXpjX2kcXiSkyd3uqABWdl/U3RfLLiGzZX+3smw6kGgI2Jnd9lvFAteXUKsUMRhahKBmiSpJv0npEH1a7qQ==
