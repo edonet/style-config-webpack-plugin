@@ -1,15 +1,46 @@
 {
     "name": "style-config-webpack-plugin",
     "version": "0.0.102",
-    "description": "A webpack plugin for import style config to JavaScript、LESS and SASS.",
-    "main": "lib/index.js",
-    "types": "lib/index.d.ts",
+    "description": "A webpack plugin for import style config to CSS、LESS and SASS.",
+    "keywords": [
+        "Style",
+        "Configuration",
+        "CSS",
+        "LESS",
+        "SASS",
+        "SCSS"
+    ],
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "start": "esc ./src",
+        "build": "yarn clean && yarn compile",
+        "watch": "yarn compile --watch",
+        "compile": "esc -p ./src",
+        "prepublishOnly": "yarn build",
+        "test": "jest",
+        "clean": "rm -rf ./dist"
+    },
     "repository": "git@github.com:edonet/style-config-webpack-plugin.git",
     "author": "edonet <edonet@163.com>",
     "license": "MIT",
     "dependencies": {
-        "@ainc/fs": "^0.0.111",
-        "@ainc/script": "^0.0.119",
-        "memory-webpack-plugin": "^0.0.105"
+        "@ainc/fs": "^0.1.16",
+        "@ainc/script": "^0.1.22",
+        "virtual-assets-webpack-plugin": "^0.0.3"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.4.1",
+        "css-loader": "^6.7.1",
+        "less": "^4.1.2",
+        "less-loader": "^10.2.0",
+        "memfs": "^3.4.1",
+        "sass": "^1.49.9",
+        "sass-loader": "^12.6.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.70.0"
+    },
+    "peerDependencies": {
+        "webpack": "^5.70.0"
     }
 }

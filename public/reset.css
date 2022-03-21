@@ -1,0 +1,117 @@
+/**
+ *****************************************
+ * 重置样式
+ *****************************************
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited  {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+
+/**
+ *****************************************
+ * 全局配置
+ *****************************************
+ */
+html, body {
+
+    /* 字体配置 */
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+
+    /* 颜色配置 */
+    font-size: var(--font-size, 16px);
+    color: var(--color, #222222);
+    background-color: var(--background-color, #f1f1f7);
+
+    /* 平滑文字 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+
+    /* 字体调节 */
+    -webkit-text-size-adjust: none;
+    font-size-adjust: none;
+    font-synthesis: style;
+
+    /* 禁用选择文本 */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* 去除边距 */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    /* 其它设置 */
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    backface-visibility: hidden;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-drag: none;
+    -ms-content-zooming: none;
+}

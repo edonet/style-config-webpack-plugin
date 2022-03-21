@@ -1,0 +1,7 @@
+{
+    "light": {
+        "fontWeight": 500,
+        "--font-weight-dark": 600
+    },
+    "z100": 100
+}

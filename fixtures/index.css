@@ -1,0 +1,11 @@
+/**
+ *****************************************
+ * Created by edonet@163.com
+ * Created on 2022-03-21 16:40:17
+ *****************************************
+ */
+@charset "utf-8";
+
+.css {
+    background: var(--background-color, #fff);
+}

@@ -1,5 +1,5 @@
 # style-config-webpack-plugin
-A webpack plugin for import style config to JavaScript、LESS and SASS.
+A webpack plugin for import style config to CSS、LESS and SASS.
 
 ## Install
 ``` shell
@@ -7,12 +7,12 @@ $ yarn add style-config-webpack-plugin
 ```
 
 ## Usage
-Add the plugin to your webpack config, as `webpack.config.js`. For example:
+Add the plugin to your webpack config, as webpack.config.js. For example:
 ``` javascript
-const StyleConfigPlugin = require('style-config-webpack-plugin');
+import * as style-config-webpack-plugin from 'style-config-webpack-plugin';
 
 // add plugin
-module.exports = {
+export default {
     plugins: [new StyleConfigPlugin()],
 };
 ```
